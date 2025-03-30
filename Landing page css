@@ -1,0 +1,144 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+    background: #ffcc00;
+}
+
+.hero img {
+    width: 50%;
+    border-radius: 10px;
+}
+
+.hero-content {
+    text-align: left;
+    max-width: 400px;
+}
+
+.hero .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #222;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Features Section */
+.features {
+    padding: 50px;
+    background: white;
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('https://media.gettyimages.com/id/1460713621/vector/landing-page-template-abstract-design-with-geometric-shapes-trendy-green-gradient.jpg?s=612x612&w=gi&k=20&c=UIPpJ3B21hiDPImpprb7iDf4Z9O6vXMRDD8Y2Wgrw_A=') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+ }
+
+.features .feature-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.feature-item {
+    text-align: center;
+    width: 30%;
+}
+
+.feature-item img {
+    border-radius: 10px;
+}
+
+/* About Section */
+.about {
+    padding: 50px;
+    background: #ddd;
+}
+
+/* Testimonials Section */
+.testimonials {
+    padding: 50px;
+    background: white;
+}
+
+.testimonial-item {
+    margin: 20px auto;
+    width: 50%;
+    font-style: italic;
+}
+
+/* Contact Section */
+.contact {
+    padding: 50px;
+    background: #222;
+    color: white;
+}
+
+.contact form input,
+.contact form textarea {
+    width: 80%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.contact form button {
+    padding: 10px 20px;
+    background: #ffcc00;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background: black;
+    color: white;
+    padding: 10px;
+}
